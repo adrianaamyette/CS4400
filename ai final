@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-03T08:17:12.504Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="w7y60pOATbnkRbbprc4J" version="12.3.5" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-03T08:20:45.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="utGKvcbeSJZtsqg8uV4P" version="12.3.5" type="github" pages="2">
   <diagram id="aCunuxj7FHNxqGD9myZ7" name="Page-1">
     <mxGraphModel dx="936" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
             <mxPoint x="457" y="128" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dq3A1HTkj2CLqAiAJhkL-10" value="Create Semantic Network" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-10" value="Create Semantic Network if not created, else load" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
           <mxGeometry x="460" y="108" width="90" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="dq3A1HTkj2CLqAiAJhkL-11" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dq3A1HTkj2CLqAiAJhkL-1" source="dq3A1HTkj2CLqAiAJhkL-10" target="dq3A1HTkj2CLqAiAJhkL-12">
@@ -285,8 +285,20 @@
         <mxCell id="iWSeuSKWf9hGQn58Ry99-29" value="TRUE" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
           <mxGeometry x="430" y="790" width="50" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="iWSeuSKWf9hGQn58Ry99-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+        <mxCell id="iWSeuSKWf9hGQn58Ry99-30" value="Update semantic network" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
           <mxGeometry x="320" y="795" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="iWSeuSKWf9hGQn58Ry99-37" value="Semantic Network" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry x="170" y="780" width="60" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="iWSeuSKWf9hGQn58Ry99-38" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="820" as="sourcePoint"/>
+            <mxPoint x="310" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWSeuSKWf9hGQn58Ry99-39" value="interface with" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry x="225" y="795" width="100" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
