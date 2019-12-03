@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-03T05:58:26.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="rPqlUA7kaqwjwtrq5W5_" version="12.3.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-03T07:34:22.986Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QrlznJCqzoeh9ZGCtZPz" version="12.3.5" type="github" pages="2">
   <diagram id="aCunuxj7FHNxqGD9myZ7" name="Page-1">
-    <mxGraphModel dx="1974" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1361" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -83,6 +83,41 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="370" as="sourcePoint"/>
             <mxPoint x="510" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DYh8GlAGvexSsEVzeG9S" name="Page-2">
+    <mxGraphModel dx="1128" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-0"/>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-1" parent="dq3A1HTkj2CLqAiAJhkL-0"/>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-2" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry x="143" y="2" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-3" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="60" as="sourcePoint"/>
+            <mxPoint x="180" y="106" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-4" value="INPUT Riddle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry x="133" y="108" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dq3A1HTkj2CLqAiAJhkL-1" source="dq3A1HTkj2CLqAiAJhkL-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="158" as="sourcePoint"/>
+            <mxPoint x="179" y="204" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-6" value="INPUT Clues" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dq3A1HTkj2CLqAiAJhkL-1">
+          <mxGeometry x="300" y="108" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="dq3A1HTkj2CLqAiAJhkL-8" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dq3A1HTkj2CLqAiAJhkL-1" target="dq3A1HTkj2CLqAiAJhkL-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223" y="127.5" as="sourcePoint"/>
+            <mxPoint x="293" y="127.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
